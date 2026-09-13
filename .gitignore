@@ -1,0 +1,36 @@
+# Environments & Virtual Envs
+.venv/
+venv/
+ENV/
+env/
+
+# Python / Byte-code
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Database & Scraper Artifacts
+backend/procurement.db
+procurement.db
+gojep_inspect.html
+
+# Node / React
+frontend/node_modules/
+node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# macOS system files
+.DS_Store
+
+# IDE / Editor logs
+.vscode/
+.idea/
+*.log

@@ -1,0 +1,33 @@
+# Web framework & server
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+
+# Database
+sqlalchemy==2.0.36
+
+# Scraping
+playwright==1.49.0
+beautifulsoup4==4.12.3
+lxml==5.3.0
+
+# CAPTCHA OCR (requires Tesseract installed on the OS – see README)
+pytesseract==0.3.13
+pillow>=10.0.0
+
+# PDF generation
+reportlab==4.2.5
+
+# Excel export (optional but recommended)
+openpyxl==3.1.5
+
+# Scheduler (optional – for automatic daily scraping)
+apscheduler==3.10.4
+
+# Data validation
+pydantic==2.10.3
+
+# HTTP client for robots.txt check
+httpx==0.28.1
+
+# Type stubs (dev only – harmless in prod)
+python-multipart==0.0.20
